@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Namnsdagar</title>
+</head>
+<body>
+    <article class="container my-5 my-auto">
+
+        <h1 class="text-center text-muted my-5">Hitta Namnsdagar!</h1>
+
+        <form class="namn my-5 text-center text-muted">
+            <label for="namnsdag">Vilket namn letar du efter?</label>
+            <input type="text" name="namnsdag" class="form-control p-4">
+        </form>
+
+        <section class="card rounded shadow-lg ">
+            <div class=" text-muted text-center text-uppercase details">
+                <h3 class="my-3">Namn</h3>
+                <h5 class="my-3">Namnsdagsdatum</h5>
+            </div>
+        </section>
+
+    </article>
+
+    <script src="scripts/api.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
